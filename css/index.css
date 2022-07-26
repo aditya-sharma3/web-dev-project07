@@ -1,0 +1,132 @@
+*{
+    font-family: 'Poppins', 'Fredoka One';
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.nav-item{
+    display: inline;
+    padding: 35px;
+    font-size: 22px;
+}
+
+.active-item{
+    color: #FE5E35;
+}
+
+.intro-section{
+    display: flex;
+}
+
+h3{
+    font-size: 28px;
+}
+
+.left-section h1{
+    font-size: 55px;
+    font-family: 'Fredoka One';
+}
+
+.sub-headlines{
+    padding-left: 30px;
+}
+
+.sub-headline img{
+    vertical-align: middle;  /*used to align text which is next to image in a same line*/
+    background-color: #FE5E35;
+    padding: 5px 5px;
+    border-radius: 22px;
+}
+
+.sub-headlines h5{
+    font-size: 20px;
+}
+
+p{
+    color: #AEAEAE;
+    font-size: 16px;
+}
+
+.action-btns{
+    padding-left: 25px;
+}
+
+.action-btn{
+    padding: 20px 30px;
+    border-radius: 28px;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #FE5E35;
+    border: none;
+    margin-left: 30px;
+}
+
+.right-section{
+    text-align: center;
+}
+
+.headphone-div{
+    display: flex;
+}
+
+.discount-content{
+    display: inline-block;
+    position: absolute;
+    padding-top: 290px;
+    padding-left: 150px;
+    z-index: 2;
+    line-height: 10px;
+    color: #ffffff;
+}
+
+.discount-content h4{
+    font-family: 'Fredoka One';
+}
+
+.discount-content h1{
+    font-family: 'Fredoka One';
+}
+.discount{
+    top: 80px;
+    left: 100px;
+    z-index: 1;
+}
+.headphone-div img{
+    position: relative;
+}
+
+.dot{
+    display: inline-block;
+}
+
+.yellow-dot{
+    background-color: #FBD104;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.tomato-dot{
+    background-color: #FE5E35;
+    padding: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
+.black-dot{
+    background-color: #1f1f1f;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.action-btn{
+    margin-top: 20px;
+}
+
+.action-btns{
+    margin-top: 20px;
+}
