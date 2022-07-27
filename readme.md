@@ -4,6 +4,8 @@ This is a simple project which completed using HTML and CSS only. While doing th
 I also learned other propertis like `display` and its types like `block`, `inline-block` and `inline`.
 It took me around 3hours to complete this project.
 
-![HTML](https://img.shields.io/badge/HTML-FF6263?labelColor=FF6263&style=flat-square)
+![HTML](https://img.shields.io/badge/HTML-FF6263?labelColor=FF6263&style=flat)
 
-![CSS](https://img.shields.io/badge/CSS-23C4ED?labelColor=23C4ED&style=flat-square)
+![CSS](https://img.shields.io/badge/CSS-23C4ED?labelColor=23C4ED&style=flat)
+
+![Flexbox](https://img.shields.io/badge/Flexbox-50DBB4?labelColor=50DBB4&style=flat)
