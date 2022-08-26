@@ -8,6 +8,10 @@ nav{
     padding-top: 20px;
 }
 
+/* .logo {
+    display: block;
+} */
+
 .nav-item{
     display: inline;
     padding: 35px;
@@ -129,4 +133,94 @@ p{
 
 .action-btns{
     margin-top: 20px;
+}
+/* toggle button here */
+
+.nav {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+label{
+    display: none;
+}
+
+/* Media Query here */
+@media screen and (max-width: 768px){
+    .nav-item{
+        display: none;
+    }
+
+    .intro-section{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .headphone-div img{
+        position: relative;
+        width: 70%;
+        left: 0;
+    }
+
+    .discount-content{
+        padding-left: 10px;
+        color: #1f1f1f;
+    }
+
+    /* discount background image here */
+    .discount{
+        width: 40%;
+        left: 0;
+        display: none;
+    }
+    .action-image{
+        display: none;
+    }
+
+    /* toggle menu here */
+    
+    .nav {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        text-align: right;
+    }
+
+    .menu {
+        margin: 0 30px 0 0;
+        width: 100%;
+        text-align: center;
+        display: none;
+    }
+
+    .menu a {
+        display: block;
+        text-decoration: none;
+        border-bottom: 1px solid #EAEAEB;
+        line-height: 60px;
+    }
+
+    .menu a:hover{
+        background-color: #FE5E35;
+        color: #ffffff;
+    }
+
+    label{
+        display: block;
+        font-size: 26px;
+        width: 26px;
+        float: right;
+        cursor: pointer;
+        margin-bottom: 40px;
+    }
+
+    label:hover{
+        box-shadow: 2px 2px 5px #EAEAEB;
+    }
+    /* code for toggeling */
+    #toggle:checked + .menu {
+        display: block;
+    }
 }
